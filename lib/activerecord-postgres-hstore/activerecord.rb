@@ -101,7 +101,7 @@ module ActiveRecord
 
   module ConnectionAdapters
 
-    class TableDefinition
+    class Table
 
       # Adds hstore type for migrations. So you can add columns to a table like:
       #   create_table :people do |t|
